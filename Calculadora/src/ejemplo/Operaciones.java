@@ -11,6 +11,11 @@ public class Operaciones {
 	public int restar(int a, int b) {
 	    return a - b;
 	}
+	
+	// Operación multiplicar
+	public int multiplicar(int a, int b) {
+		return a * b;
+	}
 
 	public static void main(String[] args) {
 		// Proyecto calculadora
