@@ -19,8 +19,14 @@ public class Operaciones {
 	
 	// Operación dividir
 	public int dividir(int a, int b) {
-		return a / b;
-	}
+		if (b == 0) {
+			System.out.println("Error: No se puede dividir entre 0.");
+            return 0;
+            
+        } else {
+            return a / b;
+        }
+    }
 
 	public static void main(String[] args) {
 		// Proyecto calculadora
