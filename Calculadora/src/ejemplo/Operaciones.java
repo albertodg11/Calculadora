@@ -29,10 +29,10 @@ public class Operaciones {
        }
 		
 	// Operación potencia
-	public int potencia(int a, int b) {
-            return (int) Math.pow(a, b);
-       }
-   }
+		public int potencia(int a, int b) {
+	        return (int) Math.pow(a, b); // Convierte el resultado a int
+	    }
+		
 	public static void main(String[] args) {
 		// Proyecto calculadora
 		
