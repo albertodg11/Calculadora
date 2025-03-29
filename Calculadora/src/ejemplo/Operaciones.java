@@ -1,4 +1,7 @@
 package ejemplo;
+
+import java.security.PublicKey;
+
 public class Operaciones {
 	// Operación sumar
 	public int sumar(int a, int b) {
@@ -23,6 +26,11 @@ public class Operaciones {
           
        } else {
            return a / b;
+       }
+		
+	// Operación potencia
+	public int potencia(int a, int b) {
+            return (int) Math.pow(a, b);
        }
    }
 	public static void main(String[] args) {
