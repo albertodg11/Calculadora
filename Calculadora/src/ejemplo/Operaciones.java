@@ -30,5 +30,8 @@ public class Operaciones {
 		
 		int a = 5;
 		int b = 6;
+		
+		// Llamamos al método e imprimimos el resultado en consola
+		System.out.println("La suma de " + a + " y " + b + " es: " + new Operaciones().sumar(a, b));
 	}
 }
